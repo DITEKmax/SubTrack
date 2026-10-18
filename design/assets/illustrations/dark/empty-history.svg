@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="200" viewBox="0 0 240 200" fill="none" role="img" aria-labelledby="history-art-title history-art-desc">
+  <title id="history-art-title">Пустая лента времени</title>
+  <desc id="history-art-desc">Открытый матовый виток без отметок событий, с полупрозрачными мятными и лиловыми отзвуками.</desc>
+  <defs>
+    <radialGradient id="history-mint-aura">
+      <stop stop-color="#254B4F" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#254B4F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="history-lilac-aura">
+      <stop stop-color="#403257" stop-opacity=".82"/>
+      <stop offset="1" stop-color="#403257" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="history-rear-glass" x1="52" y1="67" x2="180" y2="154" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#403257" stop-opacity=".45"/>
+      <stop offset=".54" stop-color="#403257" stop-opacity=".84"/>
+      <stop offset="1" stop-color="#C1A6EB" stop-opacity=".15"/>
+    </linearGradient>
+    <linearGradient id="history-front-glass" x1="69" y1="136" x2="174" y2="69" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#254B4F" stop-opacity=".92"/>
+      <stop offset=".48" stop-color="#26354A" stop-opacity=".83"/>
+      <stop offset="1" stop-color="#403257" stop-opacity=".72"/>
+    </linearGradient>
+    <linearGradient id="history-fine-edge" x1="70" y1="142" x2="173" y2="78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#83DDD2" stop-opacity=".45"/>
+      <stop offset=".6" stop-color="#8AA4B8" stop-opacity=".27"/>
+      <stop offset="1" stop-color="#C1A6EB" stop-opacity=".37"/>
+    </linearGradient>
+    <filter id="history-soft-shadow" x="16" y="28" width="208" height="160" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="history-aura-blur" x="10" y="18" width="220" height="174" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+  <g id="history-diffuse-light" filter="url(#history-aura-blur)">
+    <ellipse cx="87" cy="105" rx="60" ry="53" fill="url(#history-mint-aura)"/>
+    <ellipse cx="153" cy="95" rx="55" ry="55" fill="url(#history-lilac-aura)"/>
+  </g>
+  <g id="history-time-echo">
+    <path d="M183 67C153 34 94 35 65 62C28 97 41 147 85 162C121 175 162 159 174 128" stroke="#030A13" stroke-width="22" stroke-linecap="round" stroke-opacity=".085" transform="translate(0 6)" filter="url(#history-soft-shadow)"/>
+    <path d="M183 67C153 34 94 35 65 62C28 97 41 147 85 162C121 175 162 159 174 128" stroke="url(#history-rear-glass)" stroke-width="22" stroke-linecap="round"/>
+    <path d="M183 67C153 34 94 35 65 62C28 97 41 147 85 162C121 175 162 159 174 128" stroke="#8AA4B8" stroke-width="23" stroke-linecap="round" stroke-opacity=".13"/>
+    <path d="M178 60C148 31 93 32 64 59" stroke="#26354A" stroke-width="1.1" stroke-linecap="round" stroke-opacity=".7"/>
+  </g>
+  <g id="history-empty-time-ribbon">
+    <path d="M171 79C147 55 100 56 78 80C52 108 66 146 103 151C132 156 157 136 153 113C150 94 128 87 112 97C101 104 101 117 111 123" stroke="#030A13" stroke-width="25" stroke-linecap="round" stroke-opacity=".13" transform="translate(0 5)" filter="url(#history-soft-shadow)"/>
+    <path d="M171 79C147 55 100 56 78 80C52 108 66 146 103 151C132 156 157 136 153 113C150 94 128 87 112 97C101 104 101 117 111 123" stroke="url(#history-fine-edge)" stroke-width="25" stroke-linecap="round"/>
+    <path d="M171 79C147 55 100 56 78 80C52 108 66 146 103 151C132 156 157 136 153 113C150 94 128 87 112 97C101 104 101 117 111 123" stroke="url(#history-front-glass)" stroke-width="23" stroke-linecap="round"/>
+    <path d="M166 73C144 53 102 54 81 77C54 103 68 139 103 144C128 148 150 133 147 115" stroke="#26354A" stroke-width="1.5" stroke-linecap="round" stroke-opacity=".88"/>
+    <path d="M76 124C84 137 96 143 110 143" stroke="#83DDD2" stroke-width="1" stroke-linecap="round" stroke-opacity=".2"/>
+    <path d="M158 81L165 74" stroke="#E8F1F7" stroke-width=".7" stroke-linecap="round" stroke-opacity=".17"/>
+    <path d="M108 118L115 111" stroke="#8AA4B8" stroke-width=".7" stroke-linecap="round" stroke-opacity=".25"/>
+  </g>
+</svg>

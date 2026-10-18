@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="200" viewBox="0 0 240 200" fill="none">
+  <defs>
+    <linearGradient id="calendar-sheet" x1="80" y1="48" x2="160" y2="163" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#26354A" stop-opacity=".98"/>
+      <stop offset="1" stop-color="#254B4F" stop-opacity=".8"/>
+    </linearGradient>
+    <linearGradient id="calendar-fold" x1="144" y1="47" x2="165" y2="72" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#403257"/>
+      <stop offset="1" stop-color="#26354A" stop-opacity=".82"/>
+    </linearGradient>
+    <linearGradient id="calendar-pencil" x1="168" y1="62" x2="183" y2="72" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#403257"/>
+      <stop offset=".54" stop-color="#C1A6EB" stop-opacity=".64"/>
+      <stop offset="1" stop-color="#C1A6EB" stop-opacity=".86"/>
+    </linearGradient>
+    <radialGradient id="calendar-aura">
+      <stop stop-color="#403257" stop-opacity=".88"/>
+      <stop offset="1" stop-color="#403257" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="calendar-shadow" x="46" y="38" width="148" height="144" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+  <ellipse cx="124" cy="102" rx="99" ry="85" fill="url(#calendar-aura)"/>
+  <ellipse cx="122" cy="174" rx="68" ry="7" fill="#030A13" opacity=".085"/>
+  <path d="M60 132C39 108 43 74 66 61C81 53 96 54 108 57" stroke="#254B4F" stroke-width="13" stroke-linecap="round"/>
+  <path d="M62 132C45 113 46 82 68 68" stroke="#83DDD2" stroke-opacity=".2" stroke-width="1.3" stroke-linecap="round"/>
+  <g transform="rotate(-7 118 108)">
+    <path d="M78 54H148L168 75V151C168 159 162 165 154 165H78C70 165 64 159 64 151V68C64 60 70 54 78 54Z" fill="#030A13" opacity=".12" filter="url(#calendar-shadow)"/>
+    <path d="M76 48H144L165 71V146C165 154 159 160 151 160H76C68 160 62 154 62 146V62C62 54 68 48 76 48Z" fill="url(#calendar-sheet)" stroke="#8AA4B8" stroke-opacity=".21" stroke-width="1.3" stroke-linejoin="round"/>
+    <path d="M144 48V62C144 68 147 71 153 71H165L144 48Z" fill="url(#calendar-fold)" stroke="#8AA4B8" stroke-opacity=".14" stroke-width="1.25" stroke-linejoin="round"/>
+    <path d="M76 49H139M63 64V145C63 153 68 158 76 159" stroke="#26354A" stroke-opacity=".89" stroke-width="2" stroke-linecap="round"/>
+    <path d="M78 142C99 146 126 146 148 142" stroke="#83DDD2" stroke-opacity=".15" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <path d="M161 82L145 137" stroke="#030A13" stroke-opacity=".09" stroke-width="14" stroke-linecap="round"/>
+  <g transform="rotate(18 170 93)">
+    <path d="M164 58C164 54.7 166.7 52 170 52C173.3 52 176 54.7 176 58V124H164V58Z" fill="url(#calendar-pencil)" stroke="#C1A6EB" stroke-opacity=".35" stroke-width="1.2"/>
+    <path d="M164 124L170 143L176 124H164Z" fill="#26354A" stroke="#8AA4B8" stroke-opacity=".25" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M168 137L170 143L172 137H168Z" fill="#E8F1F7" opacity=".68"/>
+    <path d="M167 61V121" stroke="#26354A" stroke-opacity=".7" stroke-width="1.65" stroke-linecap="round"/>
+    <path d="M165 65H175" stroke="#403257" stroke-width="2"/>
+  </g>
+  <path d="M184 144C178 156 169 163 157 165" stroke="#83DDD2" stroke-opacity=".33" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M49 153V161M45 157H53" stroke="#C1A6EB" stroke-opacity=".43" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

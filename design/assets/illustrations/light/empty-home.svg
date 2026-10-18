@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="200" viewBox="0 0 240 200" fill="none" aria-hidden="true">
+  <defs>
+    <radialGradient id="home-mint-aura">
+      <stop stop-color="#0C6D72" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#0C6D72" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="home-lilac-aura">
+      <stop stop-color="#70499C" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#70499C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="home-lilac-glass" x1="151" y1="46" x2="148" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAE1F4" stop-opacity=".97"/>
+      <stop offset="1" stop-color="#70499C" stop-opacity=".24"/>
+    </linearGradient>
+    <linearGradient id="home-mint-glass" x1="94" y1="52" x2="108" y2="148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7EEEA" stop-opacity=".98"/>
+      <stop offset="1" stop-color="#0C6D72" stop-opacity=".27"/>
+    </linearGradient>
+    <linearGradient id="home-holder-glass" x1="87" y1="106" x2="139" y2="165" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBFCFE" stop-opacity=".94"/>
+      <stop offset="1" stop-color="#D7EEEA" stop-opacity=".71"/>
+    </linearGradient>
+    <filter id="home-ground-blur" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="home-soft-shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#2B3D57" flood-opacity=".1"/>
+    </filter>
+  </defs>
+  <!-- Light passes through the overlapping, matte service passes. -->
+  <ellipse cx="88" cy="101" rx="82" ry="71" fill="url(#home-mint-aura)"/>
+  <ellipse cx="158" cy="82" rx="64" ry="64" fill="url(#home-lilac-aura)"/>
+  <ellipse cx="120" cy="168" rx="60" ry="7" fill="#2B3D57" opacity=".09" filter="url(#home-ground-blur)"/>
+  <!-- The open loop describes recurring service, without dates or amounts. -->
+  <path d="M52 115C36 99 39 74 58 61C76 49 93 48 105 49" stroke="#0C6D72" stroke-opacity=".34" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M180 69C207 82 211 117 190 138C181 147 169 152 158 153" stroke="#70499C" stroke-opacity=".36" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M165 147L157 153L165 158" stroke="#70499C" stroke-opacity=".57" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Blank notched tickets are objects, not replicas of subscription rows. -->
+  <g filter="url(#home-soft-shadow)">
+    <g transform="rotate(14 151 96)">
+      <path d="M132 48H170C176.627 48 182 53.373 182 60V76C177.582 76 174 79.582 174 84C174 88.418 177.582 92 182 92V132C182 138.627 176.627 144 170 144H132C125.373 144 120 138.627 120 132V92C124.418 92 128 88.418 128 84C128 79.582 124.418 76 120 76V60C120 53.373 125.373 48 132 48Z" fill="url(#home-lilac-glass)" stroke="#9FAEBC" stroke-width="1"/>
+      <path d="M132 52H166" stroke="#FBFCFE" stroke-opacity=".72" stroke-width="1.3" stroke-linecap="round"/>
+      <circle cx="151" cy="66" r="4" fill="#70499C" fill-opacity=".23"/>
+    </g>
+    <g transform="rotate(-13 92 97)">
+      <path d="M72 49H110C116.627 49 122 54.373 122 61V79C117.582 79 114 82.582 114 87C114 91.418 117.582 95 122 95V133C122 139.627 116.627 145 110 145H72C65.373 145 60 139.627 60 133V95C64.418 95 68 91.418 68 87C68 82.582 64.418 79 60 79V61C60 54.373 65.373 49 72 49Z" fill="url(#home-mint-glass)" stroke="#9FAEBC" stroke-width="1"/>
+      <path d="M72 53H106" stroke="#FBFCFE" stroke-opacity=".79" stroke-width="1.3" stroke-linecap="round"/>
+      <circle cx="91" cy="68" r="4" fill="#0C6D72" fill-opacity=".24"/>
+    </g>
+    <path d="M107 66H133C139.627 66 145 71.373 145 78V140H95V78C95 71.373 100.373 66 107 66Z" fill="#FBFCFE" fill-opacity=".83" stroke="#9FAEBC" stroke-width="1"/>
+    <circle cx="120" cy="84" r="4" fill="#1B2C3C" fill-opacity=".11"/>
+    <!-- A single frosted sleeve gathers the future collection. -->
+    <path d="M66 107C82 107 86 116 103 116H137C154 116 158 107 174 107V140C174 152.15 164.15 162 152 162H88C75.85 162 66 152.15 66 140V107Z" fill="url(#home-holder-glass)" stroke="#9FAEBC" stroke-width="1.1"/>
+    <path d="M71 111C86 113 88 120 104 120H136C152 120 154 113 169 111" stroke="#FBFCFE" stroke-opacity=".85" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M84 153C90 156 99 156 106 156" stroke="#FBFCFE" stroke-opacity=".56" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M115 138C115 135.239 117.239 133 120 133C122.761 133 125 135.239 125 138C125 140.761 122.761 143 120 143C117.239 143 115 140.761 115 138Z" fill="#0C6D72" fill-opacity=".33"/>
+  </g>
+  <circle cx="47" cy="132" r="2.7" fill="#0C6D72" fill-opacity=".22"/>
+  <circle cx="190" cy="48" r="2" fill="#70499C" fill-opacity=".3"/>
+</svg>
